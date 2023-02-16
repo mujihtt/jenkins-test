@@ -1,5 +1,5 @@
 pipeline {
-    agent any
+    agent { label 'mujihtt.dev'}
 
     stages {
         stage('Pull from github') {
