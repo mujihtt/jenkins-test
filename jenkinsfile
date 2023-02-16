@@ -2,9 +2,9 @@ pipeline {
     agent any
 
     stages {
-        stage('Build') {
+        stage('Pull from github') {
             steps {
-                echo 'Building..'
+                echo 'Pull from github..'
             }
         }
         stage('Test First Try') {
